@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shopLister.shoplister">
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="com.shopLister.shoplister.AddRecipeActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.shopLister.shoplister.NewRecipeActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.shopLister.shoplister.RecipeBuilderActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.shopLister.shoplister.ViewNormalListActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.shopLister.shoplister.ItemSelectorActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.shopLister.shoplister.ViewSimpleListActivity"
+            android:label="@string/title_activity_view_simple_list"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.shopLister.shoplister.SimpleListActivity"
+            android:label="@string/title_activity_simple_list"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.shopLister.shoplister.SavedListActivity"
+            android:label="@string/title_activity_saved_list"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.shopLister.shoplister.NewListActivity"
+            android:label="@string/title_activity_new_list"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.shopLister.shoplister.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ShopLister</string>
+    <string name="welcome_to_shoplister">Welcome to ShopLister!</string>
+    <string name="select_an_activity">Select an activity</string>
+    <string name="new_list">New List</string>
+    <string name="saved_list">Saved List</string>
+    <string name="simple_list">Simple List</string>
+    <string name="testdb">testdb</string>
+    <string name="title_activity_new_list">NewListActivity</string>
+    <string name="button">Button</string>
+    <string name="superbutton">SuperButton</string>
+    <string name="fancy_text">Fancy Text</string>
+    <string name="title_activity_saved_list">SavedListActivity</string>
+    <string name="title_activity_simple_list">SimpleListActivity</string>
+    <string name="simplelistbutton">SimpleListButton</string>
+    <string name="savedbutton">SavedButton</string>
+    <string name="back">Back</string>
+    <string name="save">Save</string>
+    <string name="title_activity_view_simple_list">ViewSimpleListActivity</string>
+    <string name="add_items">Add Items</string>
+    <string name="new_item">New Item</string>
+    <string name="delete_selected">Delete Selected</string>
+    <string name="search_hint">Search</string>
+    <string name="new_recipe">New Recipe</string>
+    <string name="recipe_builder">Recipe Builder</string>
+    <string name="add_with_recipe">Add Recipe</string>
+    <string name="add_recipes">Add Recipes</string>
+</resources>
